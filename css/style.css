@@ -1,0 +1,20 @@
+:root {
+    --primary-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
+    --primary-text-color-theme-dark: #212121;
+    --secondary-text-color-theme-dark: #757575;
+    --text-color-theme-light: #ffffff;
+    --accent-color: #2196f3;
+}
+
+body {
+    font-family: var(--primary-font-family);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
