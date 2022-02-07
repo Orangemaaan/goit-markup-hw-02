@@ -9,6 +9,7 @@
     --background-light-theme: #f5f4fa;
     --logo-accent-header: #000000;
     --button-background-hover-focus: #188ce8;
+    --text-color-contact: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -256,6 +257,19 @@ a {
 
 .contact-list {
     font-style: normal;
+}
+
+.contact-list-footer {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-list-footer:hover,
+.contact-list-footer:focus {
+    color: var(--accent-color);
 }
 
 /*=====END FOOTER=====*/
