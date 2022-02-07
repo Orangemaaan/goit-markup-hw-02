@@ -18,3 +18,42 @@ body {
 .link {
     text-decoration: none;
 }
+
+/*=====START COMPONENTS=====*/
+
+.modal-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+    background-color: var(--accent-color);
+    color: var(--text-color-theme-light);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: var(--text-color-theme-light);
+    color: var(--accent-color);
+}
+
+
+
+/*=====END COMPONENTS=====*/
+
+/*=====START HEADER=====*/
+
+.title-link {
+    
+}
+
+.nav-list-link {
+    font-family: inherit;
+    font-weight: 500;
+
+}
+
+/*=====END HEADER=====*/
+

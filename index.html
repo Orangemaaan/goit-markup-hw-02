@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>WebStudio</title>
+        <title class="title-link"><span class="accent">Web</span>Studio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -15,6 +15,7 @@
     </head>
 
     <body>
+        <!-- HEADER -->
         <header class="header">
             <nav class="navigation">
                 <a class="logo" href="">WebStudio</a>
@@ -47,37 +48,38 @@
         </header>
 
         <main>
-            <section>
-                <h1>Эффективные решения для вашего бизнеса</h1>
-                <button type="button">Заказать услугу</button>
+            <section class="hero">
+                <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+                <button class="modal-btn" type="button">Заказать услугу</button>
             </section>
 
-            <section>
-                <ul>
-                    <li>
-                        <h3>Внимание к деталям</h3>
-                        <p>
+            <section class="benefits">
+                <h2 class="overtitle">Наши преимущества</h2>
+                <ul class="benefits-list list">
+                    <li class="benefits-list-item">
+                        <h3 class="title title-theme-dark">Внимание к деталям</h3>
+                        <p class="description">
                             Идейные соображения, а также начало повседневной
                             работы по формированию позиции.
                         </p>
                     </li>
-                    <li>
-                        <h3>Пунктуальность</h3>
-                        <p>
+                    <li class="benefits-list-item">
+                        <h3 class="title title-theme-dark">Пунктуальность</h3>
+                        <p class="description">
                             Задача организации, в особенности же рамки и место
                             обучения кадров влечет за собой.
                         </p>
                     </li>
-                    <li>
-                        <h3>Планирование</h3>
-                        <p>
+                    <li class="benefits-list-item">
+                        <h3 class="title title-theme-dark">Планирование</h3>
+                        <p class="description">
                             Равным образом консультация с широким активом в
                             значительной степени обуславливает.
                         </p>
                     </li>
-                    <li>
-                        <h3>Современные технологии</h3>
-                        <p>
+                    <li class="benefits-list-item">
+                        <h3 class="title title-theme-dark">Современные технологии</h3>
+                        <p class="description">
                             Значимость этих проблем настолько очевидна, что
                             реализация плановых заданий.
                         </p>
@@ -85,10 +87,10 @@
                 </ul>
             </section>
 
-            <section>
-                <h2>Чем мы занимаемся</h2>
-                <ul>
-                    <li>
+            <section class="services">
+                <h2 class="overtitle">Чем мы занимаемся</h2>
+                <ul class="services-list list">
+                    <li class="services-list-item">
                         <img
                             src="./images/text-input.jpg"
                             alt="Ввод текста"
@@ -96,7 +98,7 @@
                             height="294"
                         />
                     </li>
-                    <li>
+                    <li class="services-list-item">
                         <img
                             src="./images/mobile.jpg"
                             alt="Работа с мобильным приложением"
@@ -104,7 +106,7 @@
                             height="294"
                         />
                     </li>
-                    <li>
+                    <li class="services-list-item">
                         <img
                             src="./images/colors-palette.jpg"
                             alt="Работа с цветовой гаммой"
@@ -115,55 +117,55 @@
                 </ul>
             </section>
 
-            <section>
-                <h2>Наша команда</h2>
-                <ul>
-                    <li>
-                        <img
+            <section class="team">
+                <h2 class="overtitle">Наша команда</h2>
+                <ul class="employees-list list">
+                    <li class="employee-card">
+                    <img class="employee-photo" 
                             src="./images/product-designer.jpg"
                             alt="Игорь Демьяненко"
                             width="270"
                             height="260"
                         />
-                        <h3>Игорь Демьяненко</h3>
-                        <p>Product Designer</p>
+                        <h3 class="employee-name">Игорь Демьяненко</h3>
+                        <p class="employee-position">Product Designer</p>
                     </li>
-                    <li>
-                        <img
+                    <li class="employee-card">
+                    <img class="employee-photo"
                             src="./images/frontend-developer.jpg"
                             alt="Ольга Репина"
                             width="270"
                             height="260"
                         />
-                        <h3>Ольга Репина</h3>
-                        <p>Frontend Developer</p>
+                        <h3 class="employee-name">Ольга Репина</h3>
+                        <p class="employee-position">Frontend Developer</p>
                     </li>
-                    <li>
-                        <img
+                    <li class="employee-card">
+                    <img class="employee-photo"
                             src="./images/marketing.jpg"
                             alt="Николай Тарасов"
                             width="270"
                             height="260"
                         />
-                        <h3>Николай Тарасов</h3>
-                        <p>Marketing</p>
+                        <h3 class="employee-name">Николай Тарасов</h3>
+                        <p class="employee-position">Marketing</p>
                     </li>
-                    <li>
-                        <img
+                    <li class="employee-card">
+                        <img class="employee-photo" 
                             src="./images/ui-designer.jpg"
                             alt="Михаил Ермаков"
                             width="270"
                             height="260"
                         />
-                        <h3>Михаил Ермаков</h3>
-                        <p>UI Designer</p>
+                        <h3 class="employee-name">Михаил Ермаков</h3>
+                        <p class="employee-position">UI Designer</p>
                     </li>
                 </ul>
             </section>
         </main>
 
         <footer>
-            <a href="">WebStudio</a>
+            <a class="title-link" href=""><span class="accent">Web</span>Studio</a>
             <address>
                 <ul class="contact-list list">
                     <li class="contact-list-item">
